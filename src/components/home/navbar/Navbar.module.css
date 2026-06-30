@@ -70,12 +70,20 @@
 
 @media (max-width: 768px) {
 
+  .navbar {
+    justify-content: flex-end;
+    padding: 20px;
+  }
+
   .navbar a {
-    display: none;   /* hide all menu text links */
+    display: none;
   }
 
   .menuIcon {
-    display: block;  /* show hamburger icon */
+    display: block;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
   }
 
 }

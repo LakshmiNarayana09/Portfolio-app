@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './Main.module.css'
-import portfolioImg from '../../../assets/portfilioImg.png'
 
 function Main() {
   return (

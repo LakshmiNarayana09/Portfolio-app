@@ -5,13 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
-    
+    margin-bottom: 30px;   
 }
 
 .container{
     width: 1478px;
-    height: 1013px;
+    height: auto;
     opacity: 1;
     gap: 30px;
 }
