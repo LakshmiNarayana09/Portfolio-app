@@ -37,12 +37,50 @@
   color: yellow;
 }
 
-
 .menuIcon {
-  display: none;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
+    display: none;
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -280px;
+    width: 250px;
+    height: 100vh;
+    background: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px;
+    transition: right 0.3s ease;
+    z-index: 1000;
+}
+
+.showSidebar {
+    right: 0;
+}
+
+.closeIcon {
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    color: #D5FF3F;
 }
 
 @media (max-width: 1200px) {
@@ -68,23 +106,23 @@
 }
 
 
+
 @media (max-width: 768px) {
+    
+    .navbar a {
+        display: none;
+    }
 
-  .navbar {
-    justify-content: flex-end;
-    padding: 20px;
-  }
+    
+    .menuIcon {
+        display: block;
+    }
 
-  .navbar a {
-    display: none;
-  }
-
-  .menuIcon {
-    display: block;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
-  }
-
+    
+    .navbar {
+        justify-content: flex-end;
+    }
 }
+
+
 
