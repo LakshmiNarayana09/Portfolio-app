@@ -1,141 +1,124 @@
-.about{
-    width: 1478px;
-    height: 432.21319580078125px;
-    gap: 10px;
-    padding-top: 50px;
-    padding-right: 100px;
-    padding-bottom: 50px;
-    padding-left: 100px;
+.about {
+    width: 100%;
+    max-width: 1478px;
+    margin: 0 auto 30px;
+    padding: 50px 70px;
     background-color: hsl(73, 100%, 62%);
-    margin-bottom: 30px;
     border-radius: 10px;
+    box-sizing: border-box;
 }
-.about h1{
-    width: 83px;
-    height: 66px;
-    opacity: 1;
+
+.content {
     display: flex;
-    justify-content: center;
-    font-family: Humane;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    margin: 0 0 30px;
+    font-family: "Humane", sans-serif;
+    font-size: 72px;
     font-weight: 700;
-    font-style: Bold;
-    font-size: 74.52px;
-    line-height: 89%;
-    letter-spacing: 0%;
-
+    line-height: 0.9;
+    color: #111827;
+    text-align: center;
 }
 
-.about p{
-    font-family: Nunito;
+.content p {
+    margin: 0;
+    max-width: 1250px;
+
+    font-family: "Nunito", sans-serif;
+    font-size: 28px;
+    line-height: 1.6;
     font-weight: 400;
-    font-style: Regular;
-    font-size: 30px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: Black Blue;
-    display: flex;
-    justify-content: center;
-    width: 1282;
-    height: 180;
-    opacity: 1;
+    color: #111827;
+    text-align: left;
+}
 
-
-} 
-.buttons{
+.buttons {
     display: flex;
-    justify-content: end; 
-    margin-top: 10px;  
+    justify-content: flex-end;
+    margin-top: 35px;
 }
 
 .moreButtons {
-  padding: 14px 34px;
-  background: #111827;
-  color: hsl(73, 100%, 62%);
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 8px 20px rgba(17, 24, 39, 0.2);
+    padding: 12px 28px;
+    background: #111827;
+    color: hsl(73, 100%, 62%);
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .moreButtons:hover {
-  background: #1f2937;
-  transform: translateY(-2px);
-  box-shadow: 0 12px 24px rgba(17, 24, 39, 0.3);
+    background: #1f2937;
+    transform: translateY(-2px);
 }
 
 .moreButtons:active {
-  transform: translateY(0);
-  box-shadow: 0 6px 16px rgba(17, 24, 39, 0.2);
+    transform: translateY(0);
 }
 
 
+
 @media (max-width: 1200px) {
+
     .about {
-        width: 100%;
-        padding: 45px 70px;
-        height: auto;
+        padding: 45px 50px;
     }
 
-    .about h1 {
+    .content h1 {
         font-size: 64px;
     }
 
-    .about p {
-        width: 100%;
-        height: auto;
-        font-size: 26px;
-        text-align: center;
+    .content p {
+        font-size: 24px;
     }
-} 
+}
+
+
 
 @media (max-width: 992px) {
+
     .about {
-        width: 100%;
-        height: auto;
         padding: 40px;
     }
 
-    .about h1 {
-        font-size: 56px;
-        text-align: center;
+    .content h1 {
+        font-size: 54px;
     }
 
-    .about p {
-        width: 100%;
-        height: auto;
-        font-size: 22px;
-        line-height: 1.5;
+    .content p {
+        font-size: 20px;
         text-align: center;
     }
 
     .buttons {
-        width: 100%;
         justify-content: center;
-        margin-top: 30px;
-    }
-
-    .moreButtons {
-        padding: 12px 30px;
-        font-size: 15px;
     }
 }
 
 
+
 @media (max-width: 768px) {
+
     .about {
         padding: 30px 20px;
     }
 
-    .about h1 {
-        font-size: 44px;
+    .content h1 {
+        font-size: 42px;
+        margin-bottom: 20px;
     }
 
-    .about p {
-        font-size: 18px;
-        line-height: 1.6;
+    .content p {
+        font-size: 17px;
+        line-height: 1.7;
+        text-align: center;
     }
 
     .buttons {
@@ -144,9 +127,7 @@
     }
 
     .moreButtons {
-        width: 100%;
-        max-width: 220px;
-        padding: 12px 20px;
+        padding: 10px 22px;
         font-size: 14px;
     }
 }
