@@ -63,7 +63,7 @@ function About() {
 
           <div className={styles.skills}>
 
-            <h2>Skillsss</h2>
+            <h2>Skills</h2>
               
               <div className={styles.images}>
                 
