@@ -1,0 +1,186 @@
+.contact{
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;    
+}
+
+.heading h1{
+    
+    font-family: Humane;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 88%;
+    letter-spacing: 0%;
+    font-size:60px;
+    font-weight:500px;
+    margin-bottom:30px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161B22;
+    width: 1478px;
+    height: 102px;
+    border-radius: 10px;
+
+}
+
+.container {
+
+  width: 100%;
+  max-width: 1478px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 70px 0;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+
+  background-color: #d9ff25;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+
+
+.left {
+  flex: 1;
+}
+
+.left h2 {
+  font-size: 90px;
+  font-family: "Humane", sans-serif;
+  color: #111;
+  line-height: .9;
+}
+
+.left p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #111;
+}
+
+
+
+.right {
+  flex: 1;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.inputGroup label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #111;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 12px 15px;
+  font-size: 16px;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #171b22;
+  color: #d9ff25;
+  font-size: 17px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  background: #000;
+}
+
+
+
+@media (max-width:992px){
+
+    .heading h1{
+        width:100%;
+        font-size:46px;
+        min-height:90px;
+    }
+
+    .container{
+        flex-direction:column;
+        gap:40px;
+        padding:30px 25px;
+    }
+
+    .left,
+    .right{
+        width:100%;
+    }
+
+    .left h2{
+        font-size:64px;
+        text-align:center;
+    }
+
+    .left p{
+        text-align:center;
+    }
+
+}
+
+
+
+@media (max-width:768px){
+
+    .contact{
+        padding:0 15px;
+    }
+
+    .heading h1{
+        font-size:36px;
+        min-height:80px;
+        text-align:center;
+    }
+
+    .container{
+        padding:25px 20px;
+        gap:30px;
+    }
+
+    .left h2{
+        font-size:48px;
+    }
+
+    .left p{
+        font-size:16px;
+        line-height:1.6;
+    }
+
+    .inputGroup input,
+    .inputGroup textarea{
+        font-size:15px;
+        padding:10px 12px;
+    }
+
+    button{
+        font-size:16px;
+        padding:12px;
+    }
+
+}
+

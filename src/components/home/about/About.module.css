@@ -1,0 +1,139 @@
+.about{
+    width: 1478px;
+    height: 432.21319580078125;
+    opacity: 1;
+    gap: 10px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    background-color: hsl(73, 100%, 62%);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.about h1{
+    width: 83;
+    height: 66;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    font-family: Humane;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 74.52px;
+    line-height: 89%;
+    letter-spacing: 0%;
+
+}
+
+.about p{
+    font-family: Nunito;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: Black Blue;
+    display: flex;
+    justify-content: center;
+    width: 1282;
+    height: 180;
+    opacity: 1;
+
+
+} 
+.buttons{
+    display: flex;
+    justify-content: end;   
+    width: 1282;
+    height: 50.661373138427734;
+    opacity: 1;
+}
+
+.moreButtons {
+  padding: 14px 34px;
+  background: #111827;
+  color: hsl(73, 100%, 62%);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(17, 24, 39, 0.2);
+}
+
+.moreButtons:hover {
+  background: #1f2937;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(17, 24, 39, 0.3);
+}
+
+.moreButtons:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 16px rgba(17, 24, 39, 0.2);
+}
+
+
+
+
+@media (max-width: 992px) {
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+
+    .about h1 {
+        font-size: 56px;
+        text-align: center;
+    }
+
+    .about p {
+        width: 100%;
+        height: auto;
+        font-size: 22px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .buttons {
+        width: 100%;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .moreButtons {
+        padding: 12px 30px;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .about {
+        padding: 30px 20px;
+    }
+
+    .about h1 {
+        font-size: 44px;
+    }
+
+    .about p {
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .buttons {
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    .moreButtons {
+        width: 100%;
+        max-width: 220px;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+}
+
