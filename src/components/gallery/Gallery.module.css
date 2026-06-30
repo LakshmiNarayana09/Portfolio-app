@@ -49,18 +49,6 @@
 
 }
 
-@media (max-width: 1200px) {
-
-    .heading {
-        font-size: 52px;
-    }
-
-    .gallery {
-        column-count: 3;
-        column-gap: 16px;
-        padding: 25px;
-    }
-}
 
 
 @media (max-width: 992px) {

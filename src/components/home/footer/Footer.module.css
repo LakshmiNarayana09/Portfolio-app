@@ -57,19 +57,7 @@
 }
 
 
-@media (max-width: 1200px) {
-    .footer {
-        padding: 40px;
-    }
 
-    .content h2 {
-        font-size: 2.7rem;
-    }
-
-    .logo img {
-        width: 240px;
-    }
-}
 
 @media (max-width: 992px) {
     .footer {

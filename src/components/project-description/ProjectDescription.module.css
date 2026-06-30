@@ -132,26 +132,6 @@
 }
 
 
-@media (max-width:1200px){
-
-    .projectSection{
-        gap:35px;
-    }
-
-    .right h1{
-        font-size:48px;
-    }
-
-    .right h3{
-        font-size:24px;
-    }
-
-    .features h2{
-        font-size:36px;
-    }
-
-}
-
 @media (max-width:992px){
 
     .container{
