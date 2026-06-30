@@ -97,6 +97,22 @@
 }
 
 
+@media (max-width: 1200px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+
+    .left h1 {
+        font-size: 4.5rem;
+    }
+
+    .left p {
+        font-size: 1.3rem;
+    }
+}
+
 @media (max-width: 992px) {
     .container {
         width: 100%;

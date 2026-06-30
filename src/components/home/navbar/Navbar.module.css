@@ -37,6 +37,15 @@
   color: yellow;
 }
 
+@media (max-width: 1200px) {
+    .navbar {
+        gap: 30px;
+    }
+
+    .navbar a {
+        margin: 15px;
+    }
+}
 
 @media (max-width: 992px) {
     .navbar {

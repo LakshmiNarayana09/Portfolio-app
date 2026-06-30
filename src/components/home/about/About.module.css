@@ -75,7 +75,24 @@
 }
 
 
+@media (max-width: 1200px) {
+    .about {
+        width: 100%;
+        padding: 45px 70px;
+        height: auto;
+    }
 
+    .about h1 {
+        font-size: 64px;
+    }
+
+    .about p {
+        width: 100%;
+        height: auto;
+        font-size: 26px;
+        text-align: center;
+    }
+}
 
 @media (max-width: 992px) {
     .about {

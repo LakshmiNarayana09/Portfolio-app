@@ -111,7 +111,22 @@ button:hover {
   background: #000;
 }
 
+@media (max-width:1200px){
 
+    .heading h1{
+        font-size:52px;
+    }
+
+    .container{
+        gap:50px;
+        padding:30px;
+    }
+
+    .left h2{
+        font-size:75px;
+    }
+
+}
 
 @media (max-width:992px){
 
