@@ -37,6 +37,14 @@
   color: yellow;
 }
 
+
+.menuIcon {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
 @media (max-width: 1200px) {
     .navbar {
         gap: 30px;
@@ -61,14 +69,14 @@
 
 
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        gap: 15px; 
-        padding: 20px 0;
-    }
 
-    .navbar a {
-        font-size: 16px;
-    }
+  .navbar a {
+    display: none;   /* hide all menu text links */
+  }
+
+  .menuIcon {
+    display: block;  /* show hamburger icon */
+  }
+
 }
 

@@ -49,6 +49,7 @@ function Navbar() {
       >
         Contact us
       </NavLink>
+      <i className={`bi bi-list ${styles.menuIcon}`}></i>
     </div>
   );
 }
