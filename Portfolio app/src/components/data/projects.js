@@ -4,7 +4,7 @@ import cred from "../../assets/credImg.png";
 import auth from "../../assets/auth.png";
 import todo from "../../assets/todo.png";
 import qr from "../../assets/qr.png";
-import playlist from "../../assets/playlist.png";
+import playlist from "../../assets/playList.png";
 import logos from '../../assets/logos.png'
 import ProjectCard from '../home/projects/ProjectCard';
 import Footer from '../home/footer/Footer'
